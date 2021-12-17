@@ -1,5 +1,4 @@
 export default (() => {
-
   const sendScores = async (url, userName, userScore) => {
     const gameResult = await fetch(url, {
       method: 'POST',
@@ -15,7 +14,7 @@ export default (() => {
     userScore.value = '';
     return gameResult.json();
   };
-  
+
   const getScore = async (url) => {
     const score = await fetch(url);
     return score.json();
