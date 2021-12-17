@@ -1,70 +1,87 @@
-body {
-  background-color: #f6f6f6;
-  font-family: "Open Sans", "Lucida Grande", tahoma, verdana, arial, sans-serif;
-  font-weight: 300;
-  font-size: 1rem;
+.none {
+  display: none;
 }
 
 main {
   display: flex;
-  flex-direction: column;
-  width: 500px;
-  box-sizing: border-box;
-  border-radius: 3px;
-  box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+  justify-content: space-around;
+  width: 800px;
   margin: auto;
-  margin-top: 100px;
-}
-
-.list-div {
-  width: 100%;
-  height: 50px;
-  padding: 15px;
-  box-sizing: border-box;
-}
-
-#main-list li {
-  position: relative;
-  background-color: #fff;
-  padding: 10px;
-  border-bottom: 1px solid rgb(0 0 0 / 8%);
-  font-weight: 300;
-}
-
-#main-list li:hover {
-  background-color: lightyellow;
-}
-
-.clear-link-container {
   text-align: center;
 }
 
-.list-div > input,
-.input-description {
-  border: none;
-  background-color: rgb(255 255 255 / 0%);
-}
-
-.input-description {
-  font-size: 1rem;
-}
-
-::placeholder,
-.input-description:focus {
-  font-style: italic;
-  font-size: 1rem;
-}
-
-input:focus {
-  outline: none;
-}
-
-.task-item {
+.navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.delete-btn {
-  font-size: 20px;
+.link-container {
+  padding: 0 20px;
+}
+
+.link-border {
+  border-right: black 1px solid;
+}
+
+.inpt {
+  display: block;
+  margin-left: 150px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-field {
+  margin: 7px 0;
+  border: black 2px solid;
+  width: 200px;
+  padding: 3px;
+}
+
+.button {
+  margin-right: 20px;
+  background-color: white;
+  width: 65px;
+  border: black 2px solid;
+  box-shadow: 4px 2px 2px black;
+}
+
+.list {
+  width: 350px;
+}
+
+#scores-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: black 2px solid;
+}
+
+.scores-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 5px;
+}
+
+.scores-item:nth-child(odd) {
+  background: lightgrey;
+}
+
+.contact-info-content {
+  text-align: justify;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.list-header button {
+  height: 30px;
 }
