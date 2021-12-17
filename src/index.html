@@ -18,10 +18,7 @@
       </div>
       <div id="list">
       <ul id="scores-list">
-        <li class="scores-item">name 1: 1</li>
-        <li class="scores-item">name 2: 10</li>
-        <li class="scores-item">name 3: 100</li>
-        <li class="scores-item">name 4: 1000</li>
+
       </ul>
       </div>
     </div>
@@ -31,7 +28,7 @@
       <div id="form" class="form">
         <form action="#" method="post" class="form-fld">
           <input type="text" placeholder="Your name" id="name-input" class="input-field inpt">
-          <input type="text" placeholder="Your score" id="score-input" class="input-field inpt">
+          <input type="number" min="0" oninput="validity.valid || (value='');" placeholder="Your score" id="score-input" class="input-field inpt">
           <button type="button" id="add-btn" class="inpt button">Add</button>
         </form>
       </div>
