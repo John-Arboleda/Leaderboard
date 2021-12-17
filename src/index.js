@@ -13,5 +13,5 @@ addBtn.addEventListener('click', () => {
 });
 
 refreshBtn.addEventListener('click', () => {
-  api.getScore(url).then((data) => console.log(data.result));
+  api.getScore(url).then((data) =>{ api.displayScores(data); });
 });
