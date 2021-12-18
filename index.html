@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="style.css">
+
+<script defer src="main.js"></script></head>
+<body>
+  
+  <main>
+    <div class="row justify-content-md-center">
+      <div class="col-7 bg-secondary py-4 px-4 rounded">
+        <h1 class="text-light">Leaderboard</h1>
+      </div>
+    </div>
+    
+    <div class="row justify-content-md-center pt-5">
+      <div class="list col-3 mx-5 p-3 bg-secondary rounded">
+        <div class="list-header d-flex justify-content-between">
+          <h4 class="text-light">Recent Scores</h4>
+          <button type="button" id="refresh-btn" class="btn btn-info">Refresh</button>
+        </div>
+        <div id="list">
+        <ul id="scores-list" class="list-group my-2">
+
+        </ul>
+        </div>
+      </div>
+    
+      <div class="add-new col-2 mx-3">
+        <div id="form" class="form bg-secondary pt-3 px-2 pb-1 rounded">
+          <h4 class="text-light">Add a new score</h4>
+          <form action="#" method="post" class="form-fld d-flex flex-column align-items-end">
+            <input type="text" placeholder="Your name" id="name-input" class="input-field inpt my-1 form-control">
+            <input type="number" min="0" oninput="validity.valid || (value='');" placeholder="Your score" id="score-input" class="input-field inpt my-1 form-control">
+            <button type="button" id="add-btn" class="btn btn-info my-1">Add</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
