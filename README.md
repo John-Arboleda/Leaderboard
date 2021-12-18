@@ -1,13 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-<!-- # ToDo List
+# Leaderboard
 
-> "To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. In this project a simple website that allows for doing that is build using ES6 and Webpack! -->
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external [Leaderboard API service](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3).
 
 ## Built With
 
 - HTML
 - JavaScript
+- Bootstrap
 
 ## Author
 
@@ -27,4 +28,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE.md) licensed.
