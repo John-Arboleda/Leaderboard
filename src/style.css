@@ -1,87 +1,10 @@
-.none {
-  display: none;
-}
-
-main {
-  display: flex;
-  justify-content: space-around;
-  width: 800px;
-  margin: auto;
-  text-align: center;
-}
-
-.navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.link-container {
-  padding: 0 20px;
-}
-
-.link-border {
-  border-right: black 1px solid;
-}
-
-.inpt {
-  display: block;
-  margin-left: 150px;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.input-field {
-  margin: 7px 0;
-  border: black 2px solid;
-  width: 200px;
-  padding: 3px;
-}
-
-.button {
-  margin-right: 20px;
-  background-color: white;
-  width: 65px;
-  border: black 2px solid;
-  box-shadow: 4px 2px 2px black;
-}
-
-.list {
-  width: 350px;
-}
-
 #scores-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  border: black 2px solid;
+  border: lightgrey 2px solid;
 }
 
-.scores-item {
-  display: flex;
-  justify-content: space-between;
-  padding: 2px 5px;
-}
-
-.scores-item:nth-child(odd) {
-  background: lightgrey;
-}
-
-.contact-info-content {
-  text-align: justify;
-}
-
-.list-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
-.list-header button {
-  height: 30px;
+#add-btn {
+  width: 70px;
 }
