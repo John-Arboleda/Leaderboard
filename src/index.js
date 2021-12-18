@@ -1,5 +1,6 @@
 // import _ from 'lodash';
 import './style.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import api from './API.js';
 
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/DDdBWoo8t7Ne5TXeJbq6/scores/';

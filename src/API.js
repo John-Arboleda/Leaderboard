@@ -23,7 +23,7 @@ export default (() => {
   const displayScores = ((scores) => {
     const scoreArray = scores.result;
     const scoreDetail = scoreArray.map((b) => `
-      <li>${b.user} : ${b.score}</li>
+      <li class="list-group-item">${b.user} : ${b.score}</li>
     `).join('');
     document.getElementById('scores-list').innerHTML = `${scoreDetail}`;
   });
